@@ -3,55 +3,46 @@
 	<head>
 		<meta charset="utf-8">
 		<title>Nick Roehl | Web-Developer</title>
-		<link rel="stylesheet" href="bower_components\normalize.css\normalize.css" />
+		<link rel="stylesheet" href="bower_components/normalize.css/normalize.css" />
+		<link href='http://fonts.googleapis.com/css?family=Hind:400,700|Open+Sans:400italic,700italic,700,800,400' rel='stylesheet' type='text/css' />
+		<link rel="stylesheet" href="css/main.css" />
 	</head>
 
 	<body>
 		<header>
-			<a href="index.html">
+			<a href="index.html" id="logo">
 				<h1>Nick Roehl</h1>
 				<h2>Web Developer</h2>
 			</a>
 			<nav>
-				<ul>
-					<li><a href="index.html">Portfolio</a></li>
+				<ul id="navigation">
+					<li><a href="index.html" class="selected">Portfolio</a></li>
 					<li><a href="about.html">About</a></li>
 					<li><a href="contact.html">Contact</a></li>
 				</ul>
 			</nav>
 		</header>
+		
+		<div id="wrapper">
+			<section>
+				<ul id="gallery">
+					<li>
+						<a href="https://github.com/beloitcollegecomputerscience/CommunityActionProject">
+							<img src="img/ca-logo.png" 	alt="Community Action Logo" />
+							<p>Database Capstone 2014-2015 Project</p>
+						</a>
+					</li>	
+			</section>
 
-		<section>
-			<ul>
-				<li>
-					<a href="img/GitHub-Mark.png">
-						<img src="img/GitHub-Mark.png" 	alt="" />
-						<p>A link to my GitHub page</p>
-					</a>
-				</li>	
+			<footer>
+				<a href="https://www.facebook.com/"><img src="img/facebook-wrap.png" alt="facebook logo" /></a>
+				<a href="https://github.com/TechCharge"><img src="img/github.png" alt="GitHub logo" /></a>
+				<p>&copy; 2015 Nick Roehl</p>
+			</footer>
+		</div>
 
-				<li>
-					<a href="img/GitHub-Mark.png">
-						<img src="img/GitHub-Mark.png" 	alt="" />
-						<p>A link to my GitHub page</p>
-					</a>
-				</li>
-
-				<li>
-					<a href="img/GitHub-Mark.png">
-						<img src="img/GitHub-Mark.png" 	alt="" />
-						<p>A link to my GitHub page</p>
-					</a>
-				</li>	
-		</section>
-
-		<footer>
-			<a href="https://www.facebook.com/"><img src="img/facebook-wrap.png" alt="facebook logo" /></a>
-			<a href="https://github.com/TechCharge"><img src="img/github.png" alt="GitHub logo" /></a>
-			<p>&copy; 2015 Nick Roehl</p>
-		</footer>
-
-		<script src="bower_components/jquery/dist/jquery.js"></script>
+			<script src="bower_components/jquery/dist/jquery.js"></script>
+		
 	</body>
 
 </html>
