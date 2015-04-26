@@ -17,7 +17,7 @@ a {
 }
 
 img {
-  max-width: 100%;
+  max-width: 100%; /* Fills width of container 100%, meaning that in the gallery the picture fills up 100% of the li which is 45% of the page width */
 }
 
 h3 {
